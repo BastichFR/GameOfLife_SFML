@@ -9,14 +9,14 @@ The Game of Life (an example of a cellular automaton) is played on an infinite t
 > [!NOTE]
 > This project was made for the `Algebra University School` of Zagreb in `Data structures and algorithms` course 
 
-[Download subject file](./DSA-HW-02.docx)
+[Download subject file](./DSA-HW-02.docx)  
 
-[Technical  Specifications](./documents/technicalSpecifications.md)
-[Functional Specifications](./documents/functionalSpecifications.md)
+[Technical  Specifications](./documents/technicalSpecifications.md)  
+[Functional Specifications](./documents/functionalSpecifications.md)  
 
 
 > [!CAUTION]
 > This project may not work without wsl installed.
 > In order to install wsl, run `wsl --install` in your windows shell.
 > You can remove it by run `wsl --uninstall`.
-> If any other error occured, do not hesitate to open an new issue on the github project
+> If any other error occured, do not hesitate to open a new issue on github.

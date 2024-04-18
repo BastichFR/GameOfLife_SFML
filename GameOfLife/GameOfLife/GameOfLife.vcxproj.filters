@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{687cd30a-a708-4796-a2ee-31e20c827a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{27cd54fc-2a61-4491-8899-259b2065a688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shell">
+      <UniqueIdentifier>{c1a29ed7-88de-4586-8eec-4c0be0ccd634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{4358caea-3806-4430-9b3b-696ee51a976d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{40950c93-18ea-4eef-bf19-e70a914406df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shell">
+      <UniqueIdentifier>{d6881d8c-dfcd-4270-898e-2e1d96cd3920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common\Class">
+      <UniqueIdentifier>{11df6f28-1f9d-4704-b131-46eef8e9574e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common\Files">
+      <UniqueIdentifier>{d856d29b-f0d2-4e63-9f8d-9497980931d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Class">
+      <UniqueIdentifier>{8e8e8ab7-9336-43a7-ad68-c3082ff1f7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Files">
+      <UniqueIdentifier>{d710289f-322a-4994-9ee8-071fa5a7720b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shell\Files">
+      <UniqueIdentifier>{b67825a7-d4dc-4230-b469-1b3458acbfe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shell\Files">
+      <UniqueIdentifier>{cf9b8649-3296-4bca-846b-bb5882ddf27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Class">
+      <UniqueIdentifier>{93f06b31-d54e-4239-803e-0cb70d2ac90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Class">
+      <UniqueIdentifier>{810e6c86-8dc7-4918-aaf0-1ba8764c7931}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Class\Matrix.cc">
+      <Filter>Source Files\Common\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Files\Update.cpp">
+      <Filter>Source Files\Common\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Files\Utils.cpp">
+      <Filter>Source Files\Common\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shell\main_shell.cpp">
+      <Filter>Source Files\Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shell\Files\Display.cpp">
+      <Filter>Source Files\Shell\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\main_sfml.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Class\Game.cc">
+      <Filter>Source Files\Graphics\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Class\Text.cc">
+      <Filter>Source Files\Graphics\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Class\Board.cc">
+      <Filter>Source Files\Graphics\Class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\main.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Common\Class\Matrix.hpp">
+      <Filter>Header Files\Common\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Common\Files\Update.hpp">
+      <Filter>Header Files\Common\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Common\Files\Utils.hpp">
+      <Filter>Header Files\Common\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Shell\main_shell.hpp">
+      <Filter>Header Files\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Shell\Files\Display.hpp">
+      <Filter>Header Files\Shell\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Graphics\main_sfml.hpp">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Graphics\Class\Board.hpp">
+      <Filter>Header Files\Graphics\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Graphics\Class\Text.hpp">
+      <Filter>Header Files\Graphics\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Graphics\Class\Game.hpp">
+      <Filter>Header Files\Graphics\Class</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
